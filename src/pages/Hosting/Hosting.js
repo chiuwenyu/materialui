@@ -1,7 +1,8 @@
+import { Grid } from "@mui/material";
 import React from "react";
 
 const Hosting = () => {
-  return <div style={{ marginLeft: "500px" }}>This is hosting page</div>;
+  return <Grid xs={8}>This is hosting page</Grid>;
 };
 
 export default Hosting;

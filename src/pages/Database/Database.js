@@ -1,7 +1,8 @@
+import { Grid } from "@mui/material";
 import React from "react";
 
 const Database = () => {
-  return <div style={{ marginLeft: "500px" }}>This is database page</div>;
+  return <Grid xs={8}>This is database page</Grid>;
 };
 
 export default Database;

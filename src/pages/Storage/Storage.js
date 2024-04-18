@@ -1,7 +1,8 @@
+import { Grid } from "@mui/material";
 import React from "react";
 
 const Storage = () => {
-  return <div style={{ marginLeft: "500px" }}>This is storage page</div>;
+  return <Grid xs={8}>This is storage page</Grid>;
 };
 
 export default Storage;

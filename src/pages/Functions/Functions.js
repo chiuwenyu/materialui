@@ -1,7 +1,8 @@
+import { Grid } from "@mui/material";
 import React from "react";
 
 const Functions = () => {
-  return <div style={{ marginLeft: "500px" }}>This is functions page</div>;
+  return <Grid xs={8}>This is functions page</Grid>;
 };
 
 export default Functions;
